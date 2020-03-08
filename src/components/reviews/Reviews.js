@@ -8,6 +8,7 @@ class Reviews extends Component {
         Reviews
         {this.props.reviews.map(review => (
           <Review
+            key={review.id}
             review={review}
             deleteReview={() => this.props.deleteReview(review)}
           />
