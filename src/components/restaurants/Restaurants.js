@@ -10,8 +10,6 @@ class Restaurants extends Component {
             key={restaurant.id}
             restaurant={restaurant}
             deleteRestaurant={this.props.deleteRestaurant}
-            addReview={this.props.addReview}
-            deleteReview={this.props.deleteReview}
           />
         ))}
       </ul>
